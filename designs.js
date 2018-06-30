@@ -10,8 +10,6 @@ $('#sizePicker').submit(function(evt) {
 	height = $('#inputHeight').val();
 	width = $('#inputWeight').val();
 	makeGrid(height, width);
-	// setBackground();
-
 })
 
 function makeGrid(a, b) {
@@ -36,6 +34,5 @@ function makeGrid(a, b) {
 			$(this).attr('style', 'background-color:' + color);
 		}
 	})
-
 }
 
